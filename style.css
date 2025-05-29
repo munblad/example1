@@ -1,0 +1,780 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  background-color: #d5d5d5;
+  color: rgba(0, 55, 62, 1);
+  overflow-x: hidden; 
+}
+
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: block;           
+}
+
+/* Навигация*/
+
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+ul.fx, ul.sx {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+
+
+
+li {
+  font-size: 18px;
+  color: rgba(0, 55, 62, 1);
+}
+
+.lx {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgba(0, 55, 62, 1);
+  margin-left: 230px;
+  margin-right: 154px;
+}
+
+li a {
+  text-decoration: none; 
+  color: inherit;         
+  display: block;         
+}
+
+li a:visited,
+li a:hover,
+li a:active {
+  color: inherit;       
+  text-decoration: none;  
+}
+
+
+/* Стартовая секция */
+.getstart {
+  background-color: rgba(249, 230, 208, 1);
+  height: 668px;
+  width: 1240px;
+  margin: 0 auto;
+  border-radius: 70px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+h1.support {
+  font-weight: bold;
+  font-size: 70px;
+  padding-top: 170px;
+  margin-bottom: 20px;
+  color: rgba(0, 55, 62, 1);
+  text-align: center;
+}
+
+p.supporttext {
+  font-size: 24px;
+  color: rgba(0, 55, 62, 1);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+button.started {
+  display: block;
+  height: 54px;
+  width: 195px;
+  border-radius: 30px;
+  background-color: rgba(0, 55, 62, 1);
+  color: white;
+  font-size: 20px;
+  align-items: center;
+  border: none;
+  margin: 0 auto;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+button.started:hover {
+  background-color: transparent;
+  color: rgba(0, 55, 62, 1);
+  border: 2px solid rgba(0, 55, 62, 1);
+}
+
+img.ilus1, img.ilus2 {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+img.ilus1 {
+  right: 0;
+  top: 0;
+}
+
+img.ilus2 {
+  left: 0;
+  bottom: 0;
+}
+
+/* Секция "Как это работает" */
+.row {
+  display: flex;
+  gap: 114px;
+  
+}
+
+.box-left {
+  margin-top: 147px;
+  margin-left: 150px;
+  color: rgba(0, 55, 62, 1);
+}
+
+.helpu{
+  margin-top: 37px;
+  font-size: 52px;
+}
+
+p.how {
+  font-size: 14px;
+}
+
+p.how1 {
+  margin-top: 37px;
+  font-size: 22px;
+}
+
+button.find {
+  margin-top: 37px;
+  height: 54px;
+  width: 243px;
+  border-radius: 30px;
+  background-color: rgba(0, 55, 62, 1);
+  color: white;
+  font-size: 20px;
+  border: none;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+button.find:hover {
+  background-color: transparent;
+  color: rgba(0, 55, 62, 1);
+  border: 2px solid rgba(0, 55, 62, 1);
+}
+
+.box-right {
+  margin-top: 100px;
+  background-color: rgba(0, 55, 62, 1);
+  height: 564px;
+  width: 550px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+img.ilus3 {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Секция услуг */
+.serv {
+  padding-top: 100px;
+}
+
+div.first {
+  text-align: center;
+}
+
+div.first p {
+  font-size: 18px;
+}
+
+div.first h1 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+div.first p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Секция "Mindfulness & Meditation" и "One-on-One Therapy" */
+.row1 {
+  display: flex;
+  gap: 40px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+.boxleft, .boxright {
+  height: 455px;
+  width: 600px;
+  border-radius: 60px;
+}
+
+.boxleft {
+  background-color: rgba(249, 230, 208, 1);
+  
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.boxright {
+  background-color: white;
+  text-align: left;
+}
+
+button.lear {
+  height: 54px;
+  width: 195px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 2px solid rgba(0, 55, 62, 1);
+  color: rgba(0, 55, 62, 1);
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 35px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+button.lear:hover {
+  background-color: rgba(0, 55, 62, 1);
+  color: white;
+  border: none;
+}
+
+.hh {
+  font-size: 40px;
+  color: rgba(0, 55, 62, 1);
+  margin-left: 60px;
+  margin-top: 75px;
+}
+
+.box {
+  font-size: 20px;
+  color: rgba(0, 55, 62, 1);
+  margin-left: 60px;
+  margin-top: 35px;
+}
+
+.ilus10 {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  right: 52.8px;
+  bottom: 74px;
+}
+
+/* Секция "Wellness Coaching" */
+
+.coach {
+  background-color: white;
+  height: 455px;
+  width: 1240px;
+  border-radius: 60px;
+  margin-left: 100px;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.ilus6{
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.wel, .first, .learn {
+  margin-left: 60px;
+}
+
+.wel{
+  margin-top: 75px;
+  font-size: 40px;
+}
+
+.first{
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.learn{
+  height: 54px;
+  width: 195px;
+  border-radius: 30px;
+  background-color: rgba(0, 55, 62, 1);
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 35px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+button.learn:hover {
+  background-color: transparent;
+  border: 2px solid rgba(0, 55, 62, 1);
+  color: rgba(0, 55, 62, 1);
+}
+
+/* Секция Ресурсов */
+
+.p1 {
+  margin-top: 120px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.res{
+  margin-top: 20px;
+  font-size: 52px;
+  text-align: center;
+}
+
+.p2{
+  margin-top: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.row2 {
+  display: flex;
+  gap: 40px;
+  margin-left: 100px;
+}
+
+.box1, .box2, .box3 {
+  margin-top: 80px;
+  height: 404px;
+  width: 387px;
+  background-color: white;
+  border-radius: 60px;
+  text-align: center;
+}
+
+.res1 {
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.res2 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.ress1, .ress2{
+  height: 54px;
+  width: 155px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 60px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.ress3{
+  height: 54px;
+  width: 155px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 86px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.ress1 {
+background-color: rgba(239, 192, 29, 1);
+}
+
+.ress2{
+  background-color: rgba(76, 203, 187, 1);
+}
+
+.ress3 {
+  background-color: rgba(243, 156, 172, 1);
+}
+
+.ress1:hover {
+  background-color: transparent;
+  color: rgba(239, 192, 29, 1);
+  border: 2px solid rgba(239, 192, 29, 1);
+}
+
+.ress2:hover {
+  background-color: transparent;
+  color: rgba(76, 203, 187, 1);
+  border: 2px solid rgba(76, 203, 187, 1);
+}
+
+.ress3:hover {
+  background-color: transparent;
+  color: rgba(243, 156, 172, 1);
+  border: 2px solid rgba(243, 156, 172, 1);
+}
+
+/*Comunity*/
+
+.com {
+  height: 587px;
+  width: 1240.47px;
+  background-color: white;
+  margin-top: 140px;
+  margin-left: 100px;
+  border-radius: 70px;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.com1, .com2, .com3, .combut {
+  margin-left: 60px;
+}
+
+.com1 {
+  margin-top: 70px;
+  font-size: 14px;
+}
+
+.com2{
+  font-size: 52px;
+  margin-top: 40px;
+}
+
+.com3{
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.combut{
+  height: 54px;
+  width: 281px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  background-color: rgba(0, 55, 62, 1);
+}
+
+.combut:hover {
+  background-color: transparent;
+  color: rgba(0, 55, 62, 1);
+  border: 2px solid rgba(0, 55, 62, 1);
+}
+
+.ilus11{
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  right: 0;
+  bottom: 0;
+}
+
+/*Section Questions*/
+
+.row3 {
+  display: flex;
+  gap: 50px;
+  margin-top: 150px;
+  align-items: flex-start;
+}
+
+/*Left*/
+
+.left {
+ 
+  position: sticky;
+  overflow: hidden;
+}
+
+.left1{
+  margin-left: 150px;
+  font-size: 14px;
+}
+
+.left2 {
+  margin-top: 40px;
+  margin-left: 150px;
+  font-size: 52px;
+}
+
+.left3{
+  margin-top: 40px;
+  margin-left: 150px;
+  font-size: 22px;
+}
+
+.prosta {
+  width: 570px;
+  height: 385px;
+  background-color: rgba(249, 230, 208, 1);
+  border-radius: 60px;
+  margin-left: 100px;
+  margin-top: 267px;
+}
+
+.ilus4 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  height: auto;
+}
+
+/*Right*/
+.right {
+  margin-top: 371px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 620px;
+}
+
+.faq-box-wrapper {
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.faq-box {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1a2c2c;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.faq-box:hover {
+  background-color: #f0f0f0;
+}
+
+.faq-question {
+  flex: 1;
+}
+
+.faq-toggle {
+  font-size: 24px;
+  color: #1a2c2c;
+  margin-left: 20px;
+  transition: transform 0.3s;
+}
+
+.faq-box-wrapper.open .faq-toggle {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+  padding: 0 24px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 16px;
+  color: #1a2c2c;
+}
+
+.faq-box-wrapper.open .faq-answer {
+  max-height: 300px; 
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+/*get in touch*/
+.getin{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.get1{
+  font-size: 14px;
+}
+
+.get2{
+  margin-top: 20px;
+  font-size: 52px;
+}
+
+.get3{
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+/*Contacts*/
+
+.row4{
+  width: 1240px;
+  height: 627px;
+  background-color: white;
+  border-radius: 60px;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 80px;
+  gap: 70px;
+ 
+}
+
+.contact {
+  height: 627px;
+  width: 550px;
+}
+
+.contact h1, 
+.contact p {
+  margin-left: 70px;
+}
+
+.cont1 {
+  margin-top: 70px;
+  margin-bottom: 47px;
+}
+
+.cont2, .cont3 {
+  margin-bottom: 15px;
+
+}
+
+.cont5 {
+  margin-top: 238px;
+}
+
+.contact2 {
+  height: 627px;
+  width: 620px;
+}
+
+.em1{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.emailbox {
+  height: 401px;
+  width: 550px;
+  border-radius: 40px;
+  background-color: rgba(253, 247, 241, 1);
+  margin-top: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+
+.emailbox label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #15383B;
+  font-weight: 500;
+}
+
+.emailbox input,
+.emailbox textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #15383B;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  font-size: 16px;
+  background: transparent;
+  color: #15383B;
+  font-family: inherit;
+}
+
+.emailbox textarea {
+  resize: none;
+  height: 80px;
+  padding: 20px 0 5px 0; 
+}
+
+.emailbox input::placeholder,
+.emailbox textarea::placeholder {
+  color: #A0A0A0;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.emailbox textarea {
+  resize: none;
+  height: 80px;
+}
+
+.emailbox button {
+  height: 54px;
+  width: 450px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: rgba(0, 55, 62, 1);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease;
+  align-self: flex-start;
+ 
+  margin-top: 50px;
+}
+
+.emailbox button:hover {
+  background-color: transparent;
+  color: rgba(0, 55, 62, 1);
+  border: 2px solid rgba(0, 55, 62, 1);
+}
+
+
+
+
+
+
+
+/* Анимации скролла и вопросов */
+.scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
